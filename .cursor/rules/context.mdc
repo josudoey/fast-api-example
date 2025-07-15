@@ -1,0 +1,17 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# LLM Context Window
+
+## Development Principles
+
+- No gold plating
+- DRY principle
+- Single source of truth
+- Tiny changes
+- Be concise and to the point
+- Avoid ambiguity
+- Reduce redundancy
