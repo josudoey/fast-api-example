@@ -22,4 +22,4 @@ async def read_item(item_id: int, q: Optional[str] = None):
 # Example: curl -X PUT -H "Content-Type: application/json" -d '{"name": "Foo", "price": 12.3, "is_offer": true}' http://localhost:8000/items/1
 @router.put("/items/{item_id}")
 def update_item(item_id: int, item: Item):
-    return {"item_id": item_id, **item.dict()}
+    return {"item_id": item_id, **item.model_dump()}
